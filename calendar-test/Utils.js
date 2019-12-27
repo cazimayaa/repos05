@@ -1,13 +1,13 @@
 function ss_cols() {
 
-  const A_TO_AZ = makeAtoAZ();
+  const COLS = makeAtoAZ();
 
   return {
-    DATE: { name: 'A', no: A_TO_AZ['A'].no, colNo: A_TO_AZ['A'].colNo },
-    START_TIME: { name: 'B', no: A_TO_AZ['B'].no, colNo: A_TO_AZ['B'].colNo },
-    END_TIME: { name: 'C', no: A_TO_AZ['C'].no, colNo: A_TO_AZ['C'].colNo },
-    TITLE: { name: 'D', no: A_TO_AZ['D'].no, colNo: A_TO_AZ['D'].colNo },
-    CALENDAR_ID: { name: 'E', no: A_TO_AZ['E'].no, colNo: A_TO_AZ['E'].colNo },
+    DATE: { name: 'A', no: COLS.A.no, colNo: COLS.A.colNo },
+    START_TIME: { name: 'B', no: COLS.B.no, colNo: COLS.B.colNo },
+    END_TIME: { name: 'C', no: COLS.C.no, colNo: COLS.C.colNo },
+    TITLE: { name: 'D', no: COLS.D.no, colNo: COLS.D.colNo },
+    CALENDAR_ID: { name: 'E', no: COLS.E.no, colNo: COLS.E.colNo },
   };
 }
 
